@@ -2,7 +2,7 @@ export default {
     name: "project",
     title: "Project",
     type: "document",
-    field: [
+    fields: [
         {
             name: "title",
             type: "string",
