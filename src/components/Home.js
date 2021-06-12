@@ -1,16 +1,10 @@
 import React from "react"
-import image from "../images/computer.png"
 
 export default function Home () {
     return (
-        <main>
-            <img 
-            src = {image} 
-            alt = "Banner" 
-            className = "absolute object-cover w-full h-full" 
-            />
-            <section className = "relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8 text-center">
-                <h1 className = "text-6xl homepage text-red-800 fond-bold leading-none lg:leading-tight home-name">
+        <main className = "w-auto">
+            <section className = "bg-gradient-to-b from-red-700 to-red-400 relative flex-auto justify-center min-h-screen pt-12 lg:pt-64 px-8 text-center">
+                <h1 className = "text-6xl lg:text-9xl homepage text-gray-900 fond-bold leading-tight lg:leading-tight">
                     Sean Monaghan<br />
                     Fullstack Developer
                 </h1> 
