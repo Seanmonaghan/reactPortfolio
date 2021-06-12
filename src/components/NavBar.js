@@ -11,7 +11,7 @@ export default function NavBar () {
                     <NavLink 
                         to = "/"
                         exact
-                        className = "inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+                        className = "inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-2xl font-bold cursive tracking-widest"
                         activeClassName = "text-white"
                     >
                         Sean Monaghan
@@ -38,8 +38,8 @@ export default function NavBar () {
                         Contact
                     </NavLink>
                 </nav>
-                <div className = "inline-flex py-3 px-3 my-6">
-                    <SocialIcon url = "https://www.linkedin.com/in/sean-monaghan-8318666b/" className = "mr-4" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
+                <div className = "inline-flex py-3 px-3 my-6 flex-col sm:flex-row ">
+                    <SocialIcon url = "https://www.linkedin.com/in/sean-monaghan-8318666b/" className = "mr-4 pb-2" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
                     <SocialIcon url = "https://github.com/Seanmonaghan" className = "mr-4" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
                     <SocialIcon url = "https://twitter.com/SeanMon83059815" className = "mr-4" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
                 </div>
