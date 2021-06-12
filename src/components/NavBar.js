@@ -10,28 +10,28 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex flex-col justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
-                to = "/"
+                to = "reactPortfolio/"
                 className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
                 activeClassName = "text-white"
             >
               Sean Monaghan
             </NavLink>
             <NavLink 
-                        to = "/post"
+                        to = "reactPortfolio/post"
                         className = "inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-gray-600"
                         activeClassName = "text-red-100 bg-red-700"
                     > 
                         Blog Posts
                     </NavLink>
                     <NavLink 
-                        to = "/project"
+                        to = "reactPortfolio/project"
                         className = "inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-gray-800"
                         activeClassName = "text-red-100 bg-red-700"
                     >
                         Projects
                     </NavLink>
                     <NavLink 
-                        to = "/about"
+                        to = "reactPortfolio/about"
                         className = "inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-gray-800"
                         activeClassName = "text-red-100 bg-red-700"
                     >
