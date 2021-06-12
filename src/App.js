@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename = "/reactPortfolio">
     <NavBar />
       <Switch>
         <Route component = {Home} path = "/" exact />
