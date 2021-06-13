@@ -11,32 +11,32 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex flex-col justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
                 to = "/"
-                className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 text-2xl whitespace-nowrap uppercase text-white"
                 activeClassName = "text-white"
             >
               Sean Monaghan
             </NavLink>
             <NavLink 
-                        to = "/post"
-                        className = "inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-gray-600"
-                        activeClassName = "text-red-100 bg-red-700"
-                    > 
-                        Blog Posts
-                    </NavLink>
-                    <NavLink 
-                        to = "/project"
-                        className = "inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-gray-800"
-                        activeClassName = "text-red-100 bg-red-700"
-                    >
-                        Projects
-                    </NavLink>
-                    <NavLink 
-                        to = "/about"
-                        className = "inline-flex items-center py-3 px-3 my-4 rounded text-red-200 hover:text-gray-800"
-                        activeClassName = "text-red-100 bg-red-700"
-                    >
-                        Contact
-                    </NavLink>
+              to = "/project"
+              className = "inline-flex items-center py-1 px-3 my-1 rounded text-red-200 hover:text-gray-800"
+              activeClassName = "text-red-100 bg-red-700"
+            >
+            Projects
+            </NavLink>
+            <NavLink 
+              to = "/skills"
+              className = "inline-flex items-center py-1 px-3 my-1 rounded text-red-200 hover:text-gray-800"
+              activeClassName = "text-red-100 bg-red-700"
+            >
+            Skills
+            </NavLink>
+            <NavLink 
+              to = "/about"
+              className = "inline-flex items-center py-1 px-3 my-1 rounded text-red-200 hover:text-gray-800"
+              activeClassName = "text-red-100 bg-red-700"
+            >
+            Contact
+            </NavLink>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
@@ -47,11 +47,11 @@ export default function Navbar({ fixed }) {
           </div>
           <div
             className={
-              "lg:flex flex-end items-center inline-flex py-2 px-2 my-3" +
-              (navbarOpen ? " flex" : " hidden")
+              "lg:flex flex flex-auto justify-evenly items-center py-2 px-2 my-3" +
+              (navbarOpen ? "flex" : " hidden")
             }
             id="example-navbar-danger"
-          >       <SocialIcon url = "https://www.linkedin.com/in/sean-monaghan-8318666b/" className = "mr-4 pb-2" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
+          >       <SocialIcon url = "https://www.linkedin.com/in/sean-monaghan-8318666b/" className = "mr-4 pb-2 " target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
                   <SocialIcon url = "https://github.com/Seanmonaghan" className = "mr-4" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
                   <SocialIcon url = "https://twitter.com/SeanMon83059815" className = "mr-4" target="_blank" fgColor = "#fff" style = {{ height : 35, width: 35 }} />
           </div>

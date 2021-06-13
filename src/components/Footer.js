@@ -1,11 +1,15 @@
 import React from "react";
 
 export default function Footer () {
-    return (
-        <section className = "bg-black relative flex justify-center pt-12 px-8 py-8 text-center">
-            <h3 className = "text-2xl text-gray-100 fond-bold leading-none lg:leading-tight">
-                Created By Sean Monaghan
-            </h3> 
-        </section>
+    return (  
+        <div class="container mx-auto px-6">
+            <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-6">
+                    <p class="text-sm text-blue-700 font-bold mb-2">
+                        © 2021 by Sean Monaghan
+                    </p>
+                </div>
+            </div>
+        </div>
     )
 }

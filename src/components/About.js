@@ -1,40 +1,25 @@
-import React, { useEffect, useState } from "react";
-import sanityClient from "../client.js";
-import code from "../images/code.jpg";
-import imageUrlBuilder from "@sanity/image-url";
-import BlockContent from "@sanity/block-content-to-react";
+import React from "react";
+import photo from "../images/photo.png";
 
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-    return builder.image(source)
-}
 
 export default function About () {
-
-    const [ author, setAuthor ] = useState(null);
-
-    useEffect(() => {
-        sanityClient.fetch(`*[_type == "author"]{
-            name,
-            bio,
-            "authorImage": image.asset-> url
-        }`).then((data) => setAuthor(data[0]))
-        .catch(console.error);
-    }, []);
-
-    if (!author) return <div>Loading...</div>
 
     return (
     <main className = "relative bg-gradient-to-b from-red-700 to-red-400">
         <div className = "p-10 lg:pt-48 container mx-auto relative">
             <section className = "bg-gradient-to-t from-gray-800 to-gray-500 rounded-lg shadow-2xl lg:flex p-20">
-                <img src = {urlFor(author.authorImage).url()} className = "rounded w-32 h-32 lg:w-64 lg:h-64 mr-8" alt = {author.name}/>
+                <img src = {photo} className = "w-32 h-32 lg:w-64 lg:h-64 mr-8" alt = "Sean Monaghan Photo"/>
                 <div  className = "text-lg flex flex-col justify-center">
                     <h1 className = "cursive text-6xl text-red-400 mb-4">Hello! I'm {" "}
-                    <span className = "text-red-500">{author.name}</span>
+                    <span className = "text-red-500">Sean Monaghan</span>
                     </h1>
-                    <div className = "prose lg:prose-xl text-white">
-                        <BlockContent blocks = {author.bio} projectId = "sm3yoykj" dataset = "production"/>
+                    <div className = "prose lg:prose-xl text-white whitespace-pre-line">
+                   {`
+I'm Sean, a Full Stack Web Developer with a passion for learning new technologies.
+
+I'm currently earning a Certificate in Fullstack Web Development through the University of Connecticut focusing on the following skills: HTML5, CSS, JavaScript, jQuery, Bootstrap, Bulma, Express.js, React.js, Node.js, MongoDB, MySQL, Mongoose, agile methodology, database theory, and progressive web applications.\n
+Always excited to start new endeavors so feel free to reach out to collaborate!
+                    `}
                     </div>
                 </div>
             </section>
