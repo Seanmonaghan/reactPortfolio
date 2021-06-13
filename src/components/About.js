@@ -36,7 +36,19 @@ export default function About () {
                 </button>
                 </li>
 
-                {/* Resume */}
+                {/* Twitter Link */}
+                <li>
+                <button class="text-2xl lg:text-4xl w-full bg-blue-400 hover:bg-blue-300 text-white font-bold py-2 px-4 border-b-4 border-blue-500 hover:border-blue-400 rounded my-2">
+                <a
+                    href="https://twitter.com/SeanMon83059815" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <i className="fab fa-twitter-square"> </i> Twitter <i className="fab fa-twitter-square"></i>
+                </a>
+                </button>
+                </li>
+
+                {/* Resume Link*/}
                 <li>
                 <button class="text-2xl lg:text-4xl w-full bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
                 <a 
@@ -48,24 +60,27 @@ export default function About () {
                 </button>
                 </li>
 
+                {/* Facebook Link */}
                 <li>
-                <button class="text-2xl lg:text-4xl w-full bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
+                <button class="text-2xl lg:text-4xl w-full bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
                 <a
-                    href="https://twitter.com/SeanMon83059815" 
+                    href="https://www.facebook.com/seanmonaghann/" 
                     target="_blank" 
-                    rel="noopener noreferrer">
-                    <i className="fab fa-twitter-square"> </i> Twitter <i className="fab fa-twitter-square"></i>
+                    rel="noopener noreferrer"> 
+                    <i className="fab fa-facebook-square"></i> Facebook <i className="fab fa-facebook-square"></i> 
                 </a>
                 </button>
                 </li>
+
+                {/* Email Link */}
                 <li>
                 <button class="text-2xl lg:text-4xl w-full bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
-                    Button
-                </button>
-                </li>
-                <li>
-                <button class="text-2xl lg:text-4xl w-full bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
-                    Button
+                <a
+                    href="mailto:seanryanmonaghan@yahoo.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"> 
+                    <i className="fas fa-envelope-square"></i> Email <i className="fas fa-envelope-square"></i> 
+                </a>
                 </button>
                 </li>
 
