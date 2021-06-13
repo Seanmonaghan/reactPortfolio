@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer () {
     return (  
-        <div class="container mx-auto px-6">
-            <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+        <div class="relative bg-gradient-to-b from-gray-700 to-gray-800">
+            <div class="flex flex-col items-center">
                 <div class="sm:w-2/3 text-center py-6">
-                    <p class="text-sm text-blue-700 font-bold mb-2">
+                    <p class="text-sm text-red-700 font-bold mb-2">
                         © 2021 by Sean Monaghan
                     </p>
                 </div>

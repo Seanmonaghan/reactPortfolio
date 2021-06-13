@@ -33,7 +33,7 @@ export default function Project () {
                             rel="noopener noreferrer"
                             className = "text-red-500 font-bold text-base hover:underline hover:text-red-400"
                             > View This Project on Github{" "}
-                            </a>
+                            </a>{<br></br>}
                             <a href= "https://seanmonaghan.github.io/LyriChord/"
                             alt = "LyriChord Deployed" 
                             target = "_blank" 
@@ -43,6 +43,7 @@ export default function Project () {
                             </a>
                         </div>
                     </article>
+
                     {/* Player Bank */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
@@ -65,7 +66,7 @@ export default function Project () {
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
-                            > View This Project on Github{" "}
+                            > View This Project on Github{" "}{<br />}
                             </a>
                             <a href= "https://agile-peak-22805.herokuapp.com/"
                             alt = "Player Bank Deployed" 
@@ -76,6 +77,7 @@ export default function Project () {
                             </a>
                         </div>
                     </article>
+
                     {/* React Employee Directory */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
@@ -98,7 +100,7 @@ export default function Project () {
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-red-500 font-bold hover:underline text-base text-hover:text-red-400"
-                            > View This Project on Github{" "}
+                            > View This Project on Github{" "}{<br />}
                             </a>
                             <a href= "https://seanmonaghan.github.io/React_Employee_Directory"
                             alt = "Employee Directory Deployed" 
@@ -110,9 +112,10 @@ export default function Project () {
                         </div>
                     </article>
 
+                    {/* Fitness Tracker */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
-                            <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">LyriChord</a>
+                            <a href="https://github.com/Seanmonaghan/WorkoutTracker" alt = "Fitness Tracker" target = "_blank" rel="noopener noreferrer">Fitness Tracker</a>
                         </h3>
                         <div className = "text-gray-200 text-xs space-x-4">
                             <span>
@@ -124,17 +127,17 @@ export default function Project () {
                                 School
                             </span>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
-                                This app is designed for someone looking for a convenient place to find both the lyrics and chords to a song. The app will generate lyrics on one side of the screen, and on the other provide the user with a link to the musical chords as well as suggest a variety of other chords by the same artist. The app also features Spotify integration so that the user can easily click on a link to open the song they were searching for on Spotify.
+                            This app is designed for a user that is interested in keeping track of their exercises so they can monitor progress and continue to improve. The app was developed using HTML, CSS, Javascript, Express.js, and MongoDB. It is hosted using Heroku and AtlasDB.
                             </p>
-                            <a href= "https://github.com/Seanmonaghan/LyriChord"
-                            alt = "LyriChord" 
+                            <a href= "https://github.com/Seanmonaghan/WorkoutTracker"
+                            alt = "Fitness Tracker" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
-                            > View This Project on Github{" "}
+                            > View This Project on Github{" "}{<br />}
                             </a>
-                            <a href= "https://github.com/Seanmonaghan/LyriChord"
-                            alt = "LyriChord Deployed" 
+                            <a href= "https://gentle-meadow-37672.herokuapp.com/"
+                            alt = "Workout Tracker Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
