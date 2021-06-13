@@ -14,7 +14,7 @@ export default function Project () {
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">LyriChord</a>
                         </h3>
-                        <div className = "text-gray-200 text-xs space-x-4">
+                        <div className = "text-gray-200 text-xs">
                             <span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
@@ -48,7 +48,7 @@ export default function Project () {
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "Player Bank" target = "_blank" rel="noopener noreferrer">Player Bank</a>
                         </h3>
-                        <div className = "text-gray-200 text-xs space-x-4">
+                        <div className = "text-gray-200 text-xs">
                             <span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
@@ -85,7 +85,7 @@ export default function Project () {
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">React Employee Directory</a>
                         </h3>
-                        <div className = "text-gray-200 text-xs space-x-4">
+                        <div className = "text-gray-200 text-xs">
                             <span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
@@ -119,7 +119,7 @@ export default function Project () {
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/WorkoutTracker" alt = "Fitness Tracker" target = "_blank" rel="noopener noreferrer">Fitness Tracker</a>
                         </h3>
-                        <div className = "text-gray-200 text-xs space-x-4">
+                        <div className = "text-gray-200 text-xs">
                             <span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
@@ -139,7 +139,7 @@ export default function Project () {
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
-                            > View This Project on Github{" "}{<br />}
+                            >View This Project on Github{" "}{<br />}
                             </a>
                             <a href= "https://gentle-meadow-37672.herokuapp.com/"
                             alt = "Workout Tracker Deployed" 
