@@ -11,7 +11,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex flex-col justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
                 to = "/"
-                className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 text-2xl whitespace-nowrap uppercase text-white"
+                className="homepage leading-relaxed inline-block mr-4 py-2 text-2xl whitespace-nowrap uppercase text-white"
                 activeClassName = "text-white"
             >
               Sean Monaghan

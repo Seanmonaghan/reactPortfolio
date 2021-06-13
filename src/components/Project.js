@@ -6,8 +6,7 @@ export default function Project () {
     return (
         <main className = "bg-gradient-to-b from-red-700 to-red-400 min-h-screen p-12">
             <section className = "container mx-auto">
-                <h1 className = "text-6xl font-bold flex justify-center cursive">MyProjects</h1><br />
-                <h2 className = "text-lg text-gray-900 font-bold flex justify-center mb-12">Welcome to my Project Page</h2>
+                <h1 className = "text-6xl lg:text-7xl flex justify-center mb-12 text-white homepage">Portfolio</h1>
                 <section className = "grid grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2">
 
                     {/* LyriChord Project */}
@@ -59,7 +58,10 @@ export default function Project () {
                                 School
                             </span>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
-                            This application is designed to help game developers store game concepts and add either custom or randomly generated characters into them to help populate the game world. Players can keep track of their own games and characters this way, while also viewing the works of other developers to get inspiration. The application is built using Javascript, HTML5, CSS, Express.js, Handlebars and the database created using Sequelize and MySQL. DotENV was used to secure information on the github repository. The new technology that we used in this application was Charts.js to render the character attribute information in a way that the viewer can more easily process.
+                            This application is designed to help game developers store game concepts and add either custom or randomly generated characters into them to help populate the game world. Players can keep track of their own games and characters this way, while also viewing the works of other developers to get inspiration.
+                            </p>
+                            <p className="my-6 text-lg text-gray-200 leading-relaxed">
+                            The application is built using Javascript, HTML5, CSS, Express.js, Handlebars and the database created using Sequelize and MySQL. DotENV was used to secure information on the github repository. The new technology that we used in this application was Charts.js to render the character attribute information in a way that the viewer can more easily process.
                             </p>
                             <a href= "https://github.com/Seanmonaghan/Character_Generator"
                             alt = "Player Bank Github" 
@@ -128,6 +130,9 @@ export default function Project () {
                             </span>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This app is designed for a user that is interested in keeping track of their exercises so they can monitor progress and continue to improve. The app was developed using HTML, CSS, Javascript, Express.js, and MongoDB. It is hosted using Heroku and AtlasDB.
+                            </p>
+                            <p className="my-6 text-lg text-gray-200 leading-relaxed">
+                            Chart.js is used to provide the user a stylish and efficient way of viewing their progress both in terms of the duration of their workouts and the amount of weight they lifted during them. The dashboard will show the user the last 7 exercises they have performed so they can continue to monitor their progress.
                             </p>
                             <a href= "https://github.com/Seanmonaghan/WorkoutTracker"
                             alt = "Fitness Tracker" 

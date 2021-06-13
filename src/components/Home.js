@@ -8,7 +8,7 @@ export default function Home () {
                 <img src = {photo} className = "w-32 h-32 lg:w-64 lg:h-64 mr-8 inline-block" alt = "Sean Monaghan Photo"/>
                 <div  className = "text-lg flex flex-col justify-center">
                     <h1 className = "cursive text-4xl lg:text-5xl xl:text-6xl text-red-400 mb-4 ">Hello! I'm {" "}
-                    <span className = "text-red-500 justify-center flex text-center">Sean Monaghan</span>
+                    <span className = "text-white justify-center flex text-center homepage text-5xl lg:text-7xl">Sean Monaghan</span>
                     </h1>
                     <div className = "prose lg:prose-xl text-white whitespace-pre-line">
                    {`
