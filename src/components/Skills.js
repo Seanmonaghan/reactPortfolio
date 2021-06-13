@@ -77,7 +77,7 @@ export default function Home () {
                                         <i class="fas fa-database text-6xl"></i> MySQL
                                     </div> 
                                     <div className = "flex p-2 flex-col">
-                                        <i class="fas fa-database text-6xl"></i> Sequelize
+                                        <i class="fas fa-table text-6xl"></i> Sequelize
                                     </div> 
                                 </div>
 

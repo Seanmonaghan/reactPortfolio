@@ -8,14 +8,15 @@ export default function Home () {
                 <img src = {photo} className = "w-32 h-32 lg:w-64 lg:h-64 mr-8 inline-block" alt = "Sean Monaghan Photo"/>
                 <div  className = "text-lg flex flex-col justify-center">
                     <h1 className = "cursive text-4xl lg:text-5xl xl:text-6xl text-blue-400 mb-4 ">Hello! I'm {" "}
-                    <span className = "text-white justify-center flex text-center homepage text-5xl lg:text-7xl">Sean Monaghan</span>
+                    <span className = "text-white justify-center flex  homepage text-5xl lg:text-7xl">Sean Monaghan</span>
                     </h1>
                     <div className = "prose lg:prose-xl text-white whitespace-pre-line">
                    {`
-I'm Sean, a Full Stack Web Developer with a passion for learning new technologies.
+Currently I am earning a Certificate in Fullstack Web Development through the University of Connecticut.  I have a passion for learning and implementing new technologies into my projects.
 
-I'm currently earning a Certificate in Fullstack Web Development through the University of Connecticut focusing on the following skills: HTML5, CSS, JavaScript, jQuery, Bootstrap, Bulma, Express.js, React.js, Node.js, MongoDB, MySQL, Mongoose, agile methodology, database theory, and progressive web applications.\n
-Always excited to start new endeavors so feel free to reach out to collaborate!
+I am open to fulltime employment or freelance opportunities, and would love for you to check out my portfolio and get in touch if you are interested!
+
+I'm also eager for any opportunity to engage in collaborative development so please reach out if you are interested in that as well.  
                     `}
                     </div>
                 </div>
