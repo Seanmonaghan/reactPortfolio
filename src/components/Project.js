@@ -15,16 +15,21 @@ export default function Project () {
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">LyriChord</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
-                            <span>
+                            <p><span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
                             </span>
-                            <span>
+                            </p>
+                            <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
                                 School
                             </span>
+                            </p>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                                 This app is designed for someone looking for a convenient place to find both the lyrics and chords to a song. The app will generate lyrics on one side of the screen, and on the other provide the user with a link to the musical chords as well as suggest a variety of other chords by the same artist. The app also features Spotify integration so that the user can easily click on a link to open the song they were searching for on Spotify.
+                            </p>
+                            <p className="my-6 text-lg text-gray-200 leading-relaxed">
+                                The app also features Spotify integration so that the user can easily click on a link to open the song they were searching for on Spotify.
                             </p>
                             <a href= "https://github.com/Seanmonaghan/LyriChord"
                             alt = "LyriChord" 
@@ -49,34 +54,40 @@ export default function Project () {
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "Player Bank" target = "_blank" rel="noopener noreferrer">Player Bank</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
+                        <p>
                             <span>
-                                <strong className = "font-bold">Location</strong>:{" "}
+                            <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
                             </span>
+                        </p>
+                        <p>
                             <span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
                                 School
                             </span>
-                            <p className="my-6 text-lg text-gray-200 leading-relaxed">
+                        </p>
+                        <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This application is designed to help game developers store game concepts and add either custom or randomly generated characters into them to help populate the game world. Players can keep track of their own games and characters this way, while also viewing the works of other developers to get inspiration.
-                            </p>
-                            <p className="my-6 text-lg text-gray-200 leading-relaxed">
+                        </p>
+                        <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             The application is built using Javascript, HTML5, CSS, Express.js, Handlebars and the database created using Sequelize and MySQL. DotENV was used to secure information on the github repository. The new technology that we used in this application was Charts.js to render the character attribute information in a way that the viewer can more easily process.
-                            </p>
-                            <a href= "https://github.com/Seanmonaghan/Character_Generator"
+                        </p>
+                        <a 
+                            href= "https://github.com/Seanmonaghan/Character_Generator"
                             alt = "Player Bank Github" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project on Github{" "}{<br />}
-                            </a>
-                            <a href= "https://agile-peak-22805.herokuapp.com/"
+                        </a>
+                        <a 
+                            href= "https://agile-peak-22805.herokuapp.com/"
                             alt = "Player Bank Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project Deployed{" "}
-                            </a>
+                        </a>
                         </div>
                     </article>
 
@@ -86,16 +97,21 @@ export default function Project () {
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">React Employee Directory</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
-                            <span>
+                        <p><span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
                             </span>
-                            <span>
+                            </p>
+                            <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
                                 School
                             </span>
+                            </p>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This is an employee directory application created using React and hosted on Github pages. The application was created using the React.js framework and the user information was imported via a axios API call to the Random User API. The information is tabled using the React-Table package via Node.js which allows the user to access pagination, sort through the user data or filter by columns.
+                            </p>
+                            <p className="my-6 text-lg text-gray-200 leading-relaxed">
+                            The information is tabled using the React-Table package via Node.js which allows the user to access pagination, sort through the user data or filter by columns.
                             </p>
                             <a href= "https://github.com/Seanmonaghan/React_Employee_Directory"
                             alt = "Employee Directory Github" 
@@ -120,14 +136,16 @@ export default function Project () {
                             <a href="https://github.com/Seanmonaghan/WorkoutTracker" alt = "Fitness Tracker" target = "_blank" rel="noopener noreferrer">Fitness Tracker</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
-                            <span>
+                        <p><span>
                                 <strong className = "font-bold">Location</strong>:{" "}
                                 Stamford, CT
                             </span>
-                            <span>
+                            </p>
+                            <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
                                 School
                             </span>
+                            </p>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This app is designed for a user that is interested in keeping track of their exercises so they can monitor progress and continue to improve. The app was developed using HTML, CSS, Javascript, Express.js, and MongoDB. It is hosted using Heroku and AtlasDB.
                             </p>
