@@ -3,11 +3,11 @@ import photo from "../images/photo.png";
 
 export default function Home () {
     return (
-        <main className = "bg-gradient-to-b from-red-700 to-red-400 relative flex-auto justify-center min-h-screen pt-12 pb-12 lg:pt-20 lg:pb-20 px-8 text-center">
+        <main className = "bg-gradient-to-b from-blue-800 to-blue-500 relative flex-auto justify-center min-h-screen pt-12 pb-12 lg:pt-20 lg:pb-20 px-8 text-center">
             <section className = "bg-gradient-to-t from-gray-800 to-gray-500 rounded-lg shadow-2xl lg:flex lg:items-center p-20 justify-center container mx-auto">
                 <img src = {photo} className = "w-32 h-32 lg:w-64 lg:h-64 mr-8 inline-block" alt = "Sean Monaghan Photo"/>
                 <div  className = "text-lg flex flex-col justify-center">
-                    <h1 className = "cursive text-4xl lg:text-5xl xl:text-6xl text-red-400 mb-4 ">Hello! I'm {" "}
+                    <h1 className = "cursive text-4xl lg:text-5xl xl:text-6xl text-blue-400 mb-4 ">Hello! I'm {" "}
                     <span className = "text-white justify-center flex text-center homepage text-5xl lg:text-7xl">Sean Monaghan</span>
                     </h1>
                     <div className = "prose lg:prose-xl text-white whitespace-pre-line">

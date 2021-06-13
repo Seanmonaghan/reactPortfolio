@@ -6,34 +6,34 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="lg:sticky top-0 z-50 relative flex flex-wrap items-center justify-between px-2 py-3 bg-red-800">
+      <nav className="lg:sticky top-0 z-50 relative flex flex-wrap items-center justify-between px-2 py-3 bg-blue-800">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex flex-col justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
                 to = "/"
-                className="homepage leading-relaxed inline-block mr-4 py-2 text-2xl whitespace-nowrap uppercase text-white"
+                className="homepage hover:text-black leading-relaxed inline-block mr-4 py-2 text-2xl lg:text-4xl whitespace-nowrap uppercase text-white"
                 activeClassName = "text-white"
             >
               Sean Monaghan
             </NavLink>
             <NavLink 
               to = "/project"
-              className = "inline-flex items-center py-1 px-3 my-1 rounded text-red-200 hover:text-gray-800"
-              activeClassName = "text-red-100 bg-red-700"
+              className = "inline-flex items-center py-1 px-3 my-1 rounded text-blue-200 hover:text-gray-100"
+              activeClassName = "text-blue-100 bg-blue-700"
             >
             Projects
             </NavLink>
             <NavLink 
               to = "/skills"
-              className = "inline-flex items-center py-1 px-3 my-1 rounded text-red-200 hover:text-gray-800"
-              activeClassName = "text-red-100 bg-red-700"
+              className = "inline-flex items-center py-1 px-3 my-1 rounded text-blue-200 hover:text-gray-100"
+              activeClassName = "text-blue-100 bg-blue-700"
             >
             Skills
             </NavLink>
             <NavLink 
               to = "/about"
-              className = "inline-flex items-center py-1 px-3 my-1 rounded text-red-200 hover:text-gray-800"
-              activeClassName = "text-red-100 bg-red-700"
+              className = "inline-flex items-center py-1 px-3 my-1 rounded text-blue-200 hover:text-gray-100"
+              activeClassName = "text-blue-100 bg-blue-700"
             >
             Contact
             </NavLink>

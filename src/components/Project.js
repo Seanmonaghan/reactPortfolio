@@ -4,14 +4,14 @@ import React from "react";
 export default function Project () {
 
     return (
-        <main className = "bg-gradient-to-b from-red-700 to-red-400 min-h-screen p-12">
+        <main className = "bg-gradient-to-b from-blue-800 to-blue-500 relative flex-auto justify-center min-h-screen pt-12 pb-12 lg:pt-20 lg:pb-20 px-8">
             <section className = "container mx-auto">
                 <h1 className = "text-6xl lg:text-7xl flex justify-center mb-12 text-white homepage">Portfolio</h1>
                 <section className = "grid grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2">
 
                     {/* LyriChord Project */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
-                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
+                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">LyriChord</a>
                         </h3>
                         <div className = "text-gray-200 text-xs space-x-4">
@@ -30,14 +30,14 @@ export default function Project () {
                             alt = "LyriChord" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold text-base hover:underline hover:text-red-400"
+                            className = "text-blue-500 font-bold text-base hover:underline hover:text-blue-400"
                             > View This Project on Github{" "}
                             </a>{<br></br>}
                             <a href= "https://seanmonaghan.github.io/LyriChord/"
                             alt = "LyriChord Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold text-base hover:underline hover:text-red-400"
+                            className = "text-blue-500 font-bold text-base hover:underline hover:text-blue-400"
                             > View This Project Deployed{" "}
                             </a>
                         </div>
@@ -45,7 +45,7 @@ export default function Project () {
 
                     {/* Player Bank */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
-                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
+                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "Player Bank" target = "_blank" rel="noopener noreferrer">Player Bank</a>
                         </h3>
                         <div className = "text-gray-200 text-xs space-x-4">
@@ -67,14 +67,14 @@ export default function Project () {
                             alt = "Player Bank Github" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
+                            className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project on Github{" "}{<br />}
                             </a>
                             <a href= "https://agile-peak-22805.herokuapp.com/"
                             alt = "Player Bank Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
+                            className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project Deployed{" "}
                             </a>
                         </div>
@@ -82,7 +82,7 @@ export default function Project () {
 
                     {/* React Employee Directory */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
-                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
+                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">React Employee Directory</a>
                         </h3>
                         <div className = "text-gray-200 text-xs space-x-4">
@@ -101,14 +101,14 @@ export default function Project () {
                             alt = "Employee Directory Github" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold hover:underline text-base text-hover:text-red-400"
+                            className = "text-blue-500 font-bold hover:underline text-base text-hover:text-blue-400"
                             > View This Project on Github{" "}{<br />}
                             </a>
                             <a href= "https://seanmonaghan.github.io/React_Employee_Directory"
                             alt = "Employee Directory Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
+                            className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project Deployed{" "}
                             </a>
                         </div>
@@ -116,7 +116,7 @@ export default function Project () {
 
                     {/* Fitness Tracker */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
-                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-red-700">
+                        <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
                             <a href="https://github.com/Seanmonaghan/WorkoutTracker" alt = "Fitness Tracker" target = "_blank" rel="noopener noreferrer">Fitness Tracker</a>
                         </h3>
                         <div className = "text-gray-200 text-xs space-x-4">
@@ -138,14 +138,14 @@ export default function Project () {
                             alt = "Fitness Tracker" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
+                            className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project on Github{" "}{<br />}
                             </a>
                             <a href= "https://gentle-meadow-37672.herokuapp.com/"
                             alt = "Workout Tracker Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
-                            className = "text-red-500 font-bold hover:underline text-base hover:text-red-400"
+                            className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
                             > View This Project Deployed{" "}
                             </a>
                         </div>
