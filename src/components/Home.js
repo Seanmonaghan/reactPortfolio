@@ -1,6 +1,5 @@
 import React from "react";
 import photo from "../images/photo.png";
-import cloud from "../images/cloud.png";
 
 export default function Home () {
     return (

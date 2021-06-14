@@ -6,8 +6,12 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-};
+}
 
 .homepage {
   font-family: "Fredericka the Great"
-};
+}
+
+.home-name {
+  font-size: 150px;
+}
