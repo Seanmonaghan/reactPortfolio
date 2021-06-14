@@ -1,18 +1,18 @@
 import React from "react";
-import resume from "../images/resume.pdf"
+import resume from "../images/resume.pdf";
 
 
 export default function About () {
 
     return (
-        <main className = "bg-gradient-to-b from-blue-800 to-blue-500 relative flex-auto justify-center min-h-screen pt-12 pb-12 lg:pt-20 lg:pb-20 px-8 text-center">
+        <main className = "bg-gradient-to-b from-blue-800  to-blue-500 relative flex-auto justify-center min-h-screen pt-12 pb-12 lg:pt-20 lg:pb-20 px-8 text-center">
         <h1 className = "text-6xl lg:text-7xl flex justify-center mb-12 text-white homepage">Contact Me!</h1>
-        <section className = "bg-gradient-to-t from-gray-800 to-gray-500 rounded-lg shadow-2xl lg:flex lg:flex-col lg:items-center p-10 md:p-20 justify-center container mx-auto">
+        <section className = "z-10 bg-gradient-to-t from-gray-800 to-gray-500 rounded-lg shadow-2xl lg:flex lg:flex-col lg:items-center p-10 md:p-20 justify-center container mx-auto">
 
             <ul className ="grid gird-cols-1 px-5 w-full">
                 {/* Github Link */}
                 <li>
-                <button class="text-2xl lg:text-4xl w-full bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded my-2">
+                <button class="text-2xl lg:text-4xl w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-600 hover:border-gray-500 rounded my-2">
                 <a
                     href="https://github.com/Seanmonaghan" 
                     target="_blank" rel="noopener noreferrer">
@@ -57,21 +57,9 @@ export default function About () {
                 </button>
                 </li>
 
-                {/* Facebook Link */}
-                <li>
-                <button class="text-2xl lg:text-4xl w-full bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
-                <a
-                    href="https://www.facebook.com/seanmonaghann/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"> 
-                    <i className="fab fa-facebook-square"></i> Facebook <i className="fab fa-facebook-square"></i> 
-                </a>
-                </button>
-                </li>
-
                 {/* Email Link */}
                 <li>
-                <button class="text-2xl lg:text-4xl w-full bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded my-2">
+                <button class="text-2xl lg:text-4xl w-full bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded my-2">
                 <a
                     href="mailto:seanryanmonaghan@yahoo.com" 
                     target="_blank" 
@@ -83,5 +71,5 @@ export default function About () {
         </ul>
             </section>
 
-    </main>)
-}
+    </main>);
+};

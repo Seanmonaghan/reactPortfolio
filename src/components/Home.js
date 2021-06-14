@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
 import photo from "../images/photo.png";
+import cloud from "../images/cloud.png";
 
 export default function Home () {
     return (
         <main className = "bg-gradient-to-b from-blue-800 to-blue-500 relative flex-auto justify-center min-h-screen pt-12 pb-12 lg:pt-20 lg:pb-20 px-8 text-center">
+
             <h1 className = "cursive text-4xl lg:text-5xl xl:text-6xl text-blue-200 mb-12 ">Hello! I'm {" "}
             <span className = "text-white justify-center flex mt-2 homepage text-5xl md:text-7xl">Sean Monaghan</span>
             </h1>
@@ -31,5 +33,5 @@ I'm also eager for any opportunity to engage in collaborative development so ple
             
         </main>
         
-    )
-}
+    );
+};

@@ -21,36 +21,35 @@ export default function Home () {
                             
                             {/* Second */}
                             <div>
-                                <div className = "flex p-2 flex-col">
+                                <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://www.javascript.com/" target = "_blank" >
                                     <i className="fab fa-js-square text-6xl"></i> Javascript
-                                </div>  
-                                <div className = "flex p-2 flex-col">
+                                </a>
+                                <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://tailwindcss.com/" target = "_blank" >
                                     <i className="fas fa-wind text-6xl"></i> Tailwind CSS
-                                </div>  
+                                </a>  
                             </div>
                             
                             {/* Third */}
                             <div>
-                             <div className = "flex p-2 flex-col">
-                                <i className="fab fa-css3-alt text-6xl"></i> CSS3
-                            </div>
-                            <div className = "flex p-2 flex-col">
+                                <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://www.w3.org/TR/CSS/#css" target = "_blank">
+                                    <i className="fab fa-css3-alt text-6xl"></i> CSS3
+                                </a>
+                                <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://reactjs.org/" target = "_blank">
                                     <i class="fab fa-react text-6xl"></i> React.js
-                                </div> 
- 
-                             <div className = "flex p-2 flex-col">
-                                <i className="fab fa-html5 text-6xl"></i> HTMl5
-                            </div>  
+                                </a> 
+                                <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://www.w3.org/TR/html52/" target = "_blank">
+                                    <i className="fab fa-html5 text-6xl"></i> HTML5
+                                </a>  
                             </div>
                             
                             {/* Fourth */}
                             <div>
-                                <div className = "flex p-2 flex-col">
+                                <div className = "flex p-2 flex-col hover:text-gray-200">
                                     <i class="fas fa-universal-access text-6xl"></i> UX / UI
                                 </div>
-                                <div className = "flex p-2 flex-col">
-                                <i class="fab fa-bootstrap text-6xl"></i> Bootstrap
-                            </div> 
+                                <a className = "flex p-2 flex-col" href = "https://getbootstrap.com/" target = "_blank">
+                                    <i class="fab fa-bootstrap text-6xl hover:text-gray-200"></i> Bootstrap
+                                </a> 
                             </div>    
                             
                             {/* Fifth */}
@@ -73,35 +72,35 @@ export default function Home () {
                                 </div>
                                 {/* Second */}
                                 <div>
-                                    <div className = "flex p-2 flex-col">
-                                        <i class="fas fa-database text-6xl"></i> MySQL
-                                    </div> 
-                                    <div className = "flex p-2 flex-col">
-                                        <i class="fas fa-table text-6xl"></i> Sequelize
-                                    </div> 
+                                    <a className = "flex p-2 flex-col" href = "https://www.mysql.com/" target = "_blank">
+                                        <i class="fas fa-database text-6xl hover:text-gray-200"></i> MySQL
+                                    </a> 
+                                    <a className = "flex p-2 flex-col" href = "http://sequelize.org/" target = "_blank">
+                                        <i class="fas fa-table text-6xl hover:text-gray-200"></i> Sequelize
+                                    </a> 
                                 </div>
 
                                 {/* Third */}
                                 <div>
-                                    <div className = "flex p-2 flex-col">
-                                        <i class="fas fa-code-branch text-6xl"></i> Git
-                                    </div>
-                                    <div className = "flex p-2 flex-col">
-                                        <i className="fab fa-node text-6xl"></i> Node.js
-                                    </div>  
-                                    <div className = "flex p-2 flex-col">
-                                        <i class="fab fa-python text-6xl"></i> Python
-                                    </div>
+                                    <a className = "flex p-2 flex-col" href = "https://git-scm.com/" target = "_blank">
+                                        <i class="fas fa-code-branch text-6xl hover:text-gray-200"></i> Git
+                                    </a>
+                                    <a className = "flex p-2 flex-col" href = "https://nodejs.org/en/" target = "_blank">
+                                        <i className="fab fa-node text-6xl hover:text-gray-200"></i> Node.js
+                                    </a>  
+                                    <a className = "flex p-2 flex-col"  href = "https://www.python.org/" target = "_blank">
+                                        <i class="fab fa-python text-6xl hover:text-gray-200"></i> Python
+                                    </a>
                                 </div>
 
                                 {/* Fourth */}
                                 <div>
-                                    <div className = "flex p-2 flex-col">
-                                        <i class="fas fa-database text-6xl"></i> MongoDB
-                                    </div>
-                                    <div className = "flex p-2 flex-col">
-                                        <i class="fas fa-otter text-6xl"></i> Mongoose
-                                    </div> 
+                                    <a className = "flex p-2 flex-col" href = "https://www.mongodb.com/" target = "_blank">
+                                        <i class="fas fa-database text-6xl hover:text-gray-200"></i> MongoDB
+                                    </a>
+                                    <a className = "flex p-2 flex-col" href = "https://mongoosejs.com/" target = "_blank">
+                                        <i class="fas fa-otter text-6xl hover:text-gray-200"></i> Mongoose
+                                    </a> 
                                 </div>
                                 <div>
 
@@ -117,5 +116,5 @@ export default function Home () {
             
         </main>
         
-    )
-}
+    );
+};
