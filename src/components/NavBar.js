@@ -47,7 +47,7 @@ export default function Navbar({ fixed }) {
           </div>
           <div
             className={
-              "lg:flex flex flex-auto justify-evenly items-center py-2 px-2 my-3" +
+              "lg:flex lg:justify-end flex flex-auto justify-evenly items-center py-2 px-2 my-3" +
               (navbarOpen ? "flex" : " hidden")
             }
             id="example-navbar-danger"
