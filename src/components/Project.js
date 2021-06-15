@@ -1,4 +1,8 @@
 import React from "react";
+import lyrichord from "../images/lyrichord.PNG"
+import directory from "../images/directory.PNG"
+import playerbank from "../images/playerbank.PNG"
+import workout from "../images/workout.PNG"
 
 
 export default function Project () {
@@ -25,6 +29,7 @@ export default function Project () {
                                 School
                             </span>
                             </p>
+                            <img src={lyrichord} className = "p-4" alt="LyriChord" />
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                                 This app is designed for someone looking for a convenient place to find both the lyrics and chords to a song. 
                                 The app will generate lyrics on one side of the screen, and on the other provide the user with a link to the 
@@ -54,7 +59,7 @@ export default function Project () {
                     {/* Player Bank */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
-                            <a href="https://github.com/Seanmonaghan/LyriChord" alt = "Player Bank" target = "_blank" rel="noopener noreferrer">Player Bank</a>
+                            <a href="https://github.com/Seanmonaghan/Character_Generator" alt = "Player Bank" target = "_blank" rel="noopener noreferrer">Player Bank</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
                         <p>
@@ -69,6 +74,7 @@ export default function Project () {
                                 School
                             </span>
                         </p>
+                        <img src={playerbank} className = "p-4" alt="Character Generator" />
                         <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This application is designed to help game developers store game concepts and add either custom or randomly generated characters 
                             into them to help populate the game world. Players can keep track of their own games and characters this way,
@@ -101,7 +107,7 @@ export default function Project () {
                     {/* React Employee Directory */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
-                            <a href="https://github.com/Seanmonaghan/LyriChord" alt = "LyriChord" target = "_blank" rel="noopener noreferrer">React Employee Directory</a>
+                            <a href="https://github.com/Seanmonaghan/React_Employee_Directory" alt = "Employee Directory" target = "_blank" rel="noopener noreferrer">React Employee Directory</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
                         <p><span>
@@ -114,6 +120,7 @@ export default function Project () {
                                 School
                             </span>
                             </p>
+                            <img src={directory} className = "p-4" alt="Employee Directory" />
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This is an employee directory application created using React and hosted on Github pages. 
                             The application was created using the React.js framework and the user information was imported via a axios API call 
@@ -157,6 +164,7 @@ export default function Project () {
                                 School
                             </span>
                             </p>
+                            <img src={workout} className = "p-4" alt="Workout Tracker" />
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This app is designed for a user that is interested in keeping track of their exercises so they can monitor progress 
                             and continue to improve. The app was developed using HTML, CSS, Javascript, Express.js, and MongoDB. 
