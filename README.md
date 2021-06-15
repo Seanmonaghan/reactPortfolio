@@ -22,31 +22,33 @@ The portfolio itself is a representation of my front-end skills, as the styling 
 
 ## Installation Instructions
 
-https://seanmonaghan.github.io/React_Employee_Directory/
+https://seanmonaghan.github.io/reactPortfolio/
 
 No need to install this application, it is live via github pages and the link posted above.  
 
 ## Site Overview
 
-![screenshot of home page](./src/images/home)
+![screenshot of home page](src/images/home.png)
 
-This site functions as a fairly simple employee directory so that a company can better track their employees.  The application allows the user to search for an employee by their first name, last name, date of birth, email or phone number.  They can also organize the table by clicking on one of the headers to sort by ascending or descending order.  
+I kept the homepage relatively simple choosing to display a photo and a quick description of myself while inviting anyone viewing the CV to view projects and skills that I have worked on and give them a way to contact me.
 
-![pagination](public/images/pagination.png)
+![Skills](src/images/skills.png)
 
-![pagination code](public/images/paginationcode.png)
+In the skills section of my CV I have created two rounded divs to fit images of the front end and back end skills that I am proficient with.  All of the images link to the respective site to learn more about the skills if anyone is interested in learning more about them.  
 
-The pagination functionality is created using a table and React-Table to filter the data presented based on the users preferences.  The user can either choose to display 10,25 or 50 individuals on the table using the setPageSize() functionality from React-Table.  They can navigate through these pages using the nextPage(), previousPage(), or gotoPage() functions from React-Table.
 
-![columns](public/images/columns.png)
+![Responsiveness](src/images/responsiveness.png)
 
-The columns are established prior to the construction of the table and must be speciied to our table component along with the data.  When creating the columns, it is important to add a Header and an accessor so that the table can determine what the header of the table should read as, and what data it is referencing from either your database or api call.  I added footer in this example to show that there are other options you could pass into the columns in case you or your client would like it styled differently.  You also only need to make a column for the data pertinent to your particular table.  
+The site is fully responsive, so as the screen size changes so does the styling of the sections to compensate.  A mobile first design is key when most people tend to access the internet through their phones.  I designed the CV to display great whether it is viewed from mobile or a 4K monitor!
 
-![global filter](public/images/globalfilter.png)
+![Portfolio](src/images/portfolio.png)
 
-Another important note about the project is creating the global filter component.  In essence it's just a search input that calls the setFilter function on change so that as you input characters into the search bar it will filter the results for you.  Just be sure to export the global filter and import it on your table.js file so that you can include it in the creation of your table component.  
+In my portfolio section I have have created a number of cards for my most recent projects to be displayed.  There is a link to both the deployed application and the github repository so that anyone interested can have access to those.  The user can either click on the title of the application or one of the links. 
 
-![overalltable](public/images/table.png)
+![Contact](src/images/contact.png)
+
+In the Contact Me section I provided a simple list of ways to contact me, whether that be through github, sending me an email or viewing my socials.  My resume can also be accessed from here to be viewed or downloaded.  I also have provided access to my socials via the React-Social-Icons package that links to them in the NavBar so they can be reached from anywhere on the site.  
+
 
 ## License
 
@@ -63,74 +65,3 @@ If you would like to contribute to this project feel free to send requests.  I o
 If you have any questions about the application, be sure to contact me at my [e-mail](mailto:smonagha@conncoll.edu).
 
 Alternatively you can find me and my other works at my [Github account](https://github.com/seanmonaghan).
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
