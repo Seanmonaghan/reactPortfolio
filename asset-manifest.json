@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.c885e1b3.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.6e2fb9cc.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.6e2fb9cc.chunk.js.map",
+    "main.js": "/reactPortfolio/static/js/main.487b4d7a.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.487b4d7a.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.a7ee07d8.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.a7ee07d8.js.map",
     "static/js/2.e88f022a.chunk.js": "/reactPortfolio/static/js/2.e88f022a.chunk.js",
@@ -10,13 +10,17 @@
     "index.html": "/reactPortfolio/index.html",
     "static/css/main.c885e1b3.chunk.css.map": "/reactPortfolio/static/css/main.c885e1b3.chunk.css.map",
     "static/js/2.e88f022a.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.e88f022a.chunk.js.LICENSE.txt",
+    "static/media/directory.ba9fdefe.PNG": "/reactPortfolio/static/media/directory.ba9fdefe.PNG",
+    "static/media/lyrichord.d6b73f5a.PNG": "/reactPortfolio/static/media/lyrichord.d6b73f5a.PNG",
     "static/media/photo.9b9fdd48.png": "/reactPortfolio/static/media/photo.9b9fdd48.png",
-    "static/media/resume.482b227d.pdf": "/reactPortfolio/static/media/resume.482b227d.pdf"
+    "static/media/playerbank.72dc44bf.PNG": "/reactPortfolio/static/media/playerbank.72dc44bf.PNG",
+    "static/media/resume.482b227d.pdf": "/reactPortfolio/static/media/resume.482b227d.pdf",
+    "static/media/workout.9f9e3550.PNG": "/reactPortfolio/static/media/workout.9f9e3550.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.a7ee07d8.js",
     "static/js/2.e88f022a.chunk.js",
     "static/css/main.c885e1b3.chunk.css",
-    "static/js/main.6e2fb9cc.chunk.js"
+    "static/js/main.487b4d7a.chunk.js"
   ]
 }
