@@ -9,8 +9,8 @@ export default function Home () {
             <span className = "text-white justify-center flex mt-2 homepage text-5xl md:text-7xl">Sean Monaghan</span>
             </h1>
             <section className = "bg-gradient-to-t from-gray-800 to-gray-500 rounded-lg shadow-2xl lg:flex lg:items-center p-20 justify-center container mx-auto">
-                <div className = "flex flex-col">
-                <img src = {photo} className = "w-32 h-32 lg:w-64 lg:h-64 mr-8 inline-block" alt = "Sean Monaghan Photo"/ >
+                <div className = "flex flex-col mr-8">
+                <img src = {photo} className = "w-32 h-32 lg:w-64 lg:h-64 m-auto inline-block" alt = "Sean Monaghan Photo"/ >
                 <p className = "font-bold text-white mt-2 tracking-widest">Sean Monaghan</p>
                 
                 <p className = "font-bold text-white mt-2 tracking-widest">{`(203) 640 - 9982`}</p>
