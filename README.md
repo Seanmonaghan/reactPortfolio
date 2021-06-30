@@ -28,24 +28,24 @@ No need to install this application, it is live via github pages and the link po
 
 ## Site Overview
 
-![screenshot of home page](src/images/home.png)
+![screenshot of home page](src/images/home.PNG)
 
 I kept the homepage relatively simple choosing to display a photo and a quick description of myself while inviting anyone viewing the CV to view projects and skills that I have worked on and give them a way to contact me.
 
-![Skills](src/images/skills.png)
+![Skills](src/images/skills.PNG)
 
 In the skills section of my CV I have created two rounded divs to fit images of the front end and back end skills that I am proficient with.  All of the images link to the respective site to learn more about the skills if anyone is interested in learning more about them.  
 
 
-![Responsiveness](src/images/responsiveness.png)
+![Responsiveness](src/images/responsiveness.PNG)
 
 The site is fully responsive, so as the screen size changes so does the styling of the sections to compensate.  A mobile first design is key when most people tend to access the internet through their phones.  I designed the CV to display great whether it is viewed from mobile or a 4K monitor!
 
-![Portfolio](src/images/portfolio.png)
+![Portfolio](src/images/portfolio.PNG)
 
 In my portfolio section I have have created a number of cards for my most recent projects to be displayed.  There is a link to both the deployed application and the github repository so that anyone interested can have access to those.  The user can either click on the title of the application or one of the links. 
 
-![Contact](src/images/contact.png)
+![Contact](src/images/contact.PNG)
 
 In the Contact Me section I provided a simple list of ways to contact me, whether that be through github, sending me an email or viewing my socials.  My resume can also be accessed from here to be viewed or downloaded.  I also have provided access to my socials via the React-Social-Icons package that links to them in the NavBar so they can be reached from anywhere on the site.  
 
