@@ -36,7 +36,7 @@ export default function Project () {
                                 musical chords as well as suggest a variety of other chords by the same artist.
                             </p>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
-                                The app also features Spotify integration so that the user can easily click on a link to open the song they
+                                The app was developed with HTML5, CSS3, Bootstrap and jQuery.  It also features Spotify integration so that the user can easily click on a link to open the song they
                                 were searching for on Spotify.
                             </p>
                             <a href= "https://github.com/Seanmonaghan/LyriChord"
