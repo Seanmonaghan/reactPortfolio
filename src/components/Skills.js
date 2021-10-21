@@ -36,6 +36,7 @@ export default function Home () {
                                 </a>
                                 <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://reactjs.org/" target = "_blank" rel="noreferrer">
                                     <i class="fab fa-react text-6xl"></i> React.js
+                                    <br />React Native
                                 </a> 
                                 <a className = "flex p-2 flex-col hover:text-gray-200" href = "https://www.w3.org/TR/html52/" target = "_blank" rel="noreferrer">
                                     <i className="fab fa-html5 text-6xl"></i> HTML5
@@ -45,7 +46,7 @@ export default function Home () {
                             {/* Fourth */}
                             <div>
                                 <div className = "flex p-2 flex-col hover:text-gray-200">
-                                    <i class="fas fa-universal-access text-6xl"></i> UX / UI
+                                    <i class="fas fa-universal-access text-6xl"></i> Material UI
                                 </div>
                                 <a className = "flex p-2 flex-col" href = "https://getbootstrap.com/" target = "_blank" rel="noreferrer">
                                     <i class="fab fa-bootstrap text-6xl hover:text-gray-200"></i> Bootstrap
@@ -82,8 +83,8 @@ export default function Home () {
 
                                 {/* Third */}
                                 <div>
-                                    <a className = "flex p-2 flex-col" href = "https://git-scm.com/" target = "_blank" rel="noreferrer">
-                                        <i class="fas fa-code-branch text-6xl hover:text-gray-200"></i> Git
+                                    <a className = "flex p-2 flex-col" href = "https://www.java.com/" target = "_blank" rel="noreferrer">
+                                        <i class="fab fa-java text-6xl hover:text-gray-200"></i> Java
                                     </a>
                                     <a className = "flex p-2 flex-col" href = "https://nodejs.org/en/" target = "_blank" rel="noreferrer">
                                         <i className="fab fa-node text-6xl hover:text-gray-200"></i> Node.js

@@ -26,7 +26,7 @@ export default function Project () {
                             </p>
                             <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                             </p>
                             <img src={lyrichord} className = "p-4" alt="LyriChord" />
@@ -71,7 +71,7 @@ export default function Project () {
                         <p>
                             <span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                         </p>
                         <img src={playerbank} className = "p-4" alt="Character Generator" />
@@ -117,13 +117,13 @@ export default function Project () {
                             </p>
                             <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                             </p>
                             <img src={directory} className = "p-4" alt="Employee Directory" />
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
                             This is an employee directory application created using React and hosted on Github pages. 
-                            The application was created using the React.js framework and the user information was imported via a axios API call 
+                            The application was created using the React.js framework and the user information was imported via an axios API call 
                             to the Random User API. 
                             
                             </p>
@@ -161,7 +161,7 @@ export default function Project () {
                             </p>
                             <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                             </p>
                             <img src={workout} className = "p-4" alt="Workout Tracker" />

@@ -20,11 +20,13 @@ export default function Home () {
                 <div  className = "text-lg flex flex-col justify-center">
                     <div className = "prose lg:prose-xl text-white whitespace-pre-line">
                    {`
-Currently I am earning a Certificate in Fullstack Web Development through the University of Connecticut.  I have a passion for learning and implementing new technologies into my projects.
+Developer with a certificate in Full Stack Web Development through the University of Connecticut and a certificate in Java and React Native through the Southern Methodist University.
 
-I am open to fulltime employment or freelance opportunities, and would love for you to check out my portfolio and get in touch if you are interested!
+I have a passion for learning and implementing new technologies into my projects with a focus on back end systems and database management.
 
-I'm also eager for any opportunity to engage in collaborative development so please reach out if you are interested in that as well.  
+Open to fulltime employment or freelance opportunities and would love for you to check out my portfolio and get in touch.
+
+
                     `}
                     </div>
                 </div>
