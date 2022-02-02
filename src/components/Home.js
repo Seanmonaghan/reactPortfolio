@@ -20,7 +20,7 @@ export default function Home () {
                 <div  className = "text-lg flex flex-col justify-center">
                     <div className = "prose lg:prose-xl text-white whitespace-pre-line">
                    {`
-Developer with a certificate in Full Stack Web Development through the University of Connecticut and a certificate in Java and React Native through the Southern Methodist University.
+Full Stack Software Developer with certificates from the University of Connecticut and Southern Methodist University in MERN stack and Spring Boot web development.
 
 I have a passion for learning and implementing new technologies into my projects with a focus on back end systems and database management.
 
