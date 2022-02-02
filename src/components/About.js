@@ -61,7 +61,7 @@ export default function About () {
                 <li>
                 <button class="text-2xl lg:text-4xl w-full bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 border-b-4 border-indigo-700 hover:border-indigo-500 rounded my-2">
                 <a
-                    href="mailto:seanryanmonaghan@yahoo.com" 
+                    href="mailto:sean.ryann.monaghan@gmail.com" 
                     target="_blank" 
                     rel="noopener noreferrer"> 
                     <i className="fas fa-envelope-square"></i> Email <i className="fas fa-envelope-square"></i> 
