@@ -140,7 +140,7 @@ export default function Project () {
                             > Github Repository{" "}{<br />}
                             </a>
                             <a href= "https://quiet-harbor-96544.herokuapp.com/"
-                            alt = "Employee Directory Deployed" 
+                            alt = "Trek Gambit Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
