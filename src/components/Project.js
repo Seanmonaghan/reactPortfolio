@@ -26,7 +26,7 @@ export default function Project () {
                             </p>
                             <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                             </p>
                             <img src={lyrichord} className = "p-4" alt="LyriChord" />
@@ -36,7 +36,7 @@ export default function Project () {
                                 musical chords as well as suggest a variety of other chords by the same artist.
                             </p>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
-                                The app also features Spotify integration so that the user can easily click on a link to open the song they
+                                The app was developed with HTML5, CSS3, Bootstrap and jQuery.  It also features Spotify integration so that the user can easily click on a link to open the song they
                                 were searching for on Spotify.
                             </p>
                             <a href= "https://github.com/Seanmonaghan/LyriChord"
@@ -71,7 +71,7 @@ export default function Project () {
                         <p>
                             <span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                         </p>
                         <img src={playerbank} className = "p-4" alt="Character Generator" />
@@ -104,42 +104,43 @@ export default function Project () {
                         </div>
                     </article>
 
-                    {/* React Employee Directory */}
+                    {/* Trek Gambit */}
                     <article className = "transition duration-500 ease-in-out hover:bg-gray-200 transform relative rounded-lg shadow-xl bg-gradient-to-t from-gray-800 to-gray-500 p-16 hover:-translate-y-1 hover:scale-105">
                         <h3 className = "text-white text-3xl font-bold mb-2 hover:text-blue-700">
-                            <a href="https://github.com/Seanmonaghan/React_Employee_Directory" alt = "Employee Directory" target = "_blank" rel="noopener noreferrer">React Employee Directory</a>
+                            <a href="https://github.com/Seanmonaghan/React_Employee_Directory" alt = "Employee Directory" target = "_blank" rel="noopener noreferrer">Trek Gambit</a>
                         </h3>
                         <div className = "text-gray-200 text-xs">
                         <p><span>
                                 <strong className = "font-bold">Location</strong>:{" "}
-                                Stamford, CT
+                                Dallas, TX
                             </span>
                             </p>
                             <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                             </p>
-                            <img src={directory} className = "p-4" alt="Employee Directory" />
+                            <img src={gambit} className = "p-4" alt="Trek Gambit Image" />
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
-                            This is an employee directory application created using React and hosted on Github pages. 
-                            The application was created using the React.js framework and the user information was imported via a axios API call 
-                            to the Random User API. 
+                            This is a social media application that utilizes the National Park Services API.  Users can log create an
+                            account where they can share their experiences at various national parks or view the experiences of others
+                            to help them plan their own trip.  
                             
                             </p>
                             <p className="my-6 text-lg text-gray-200 leading-relaxed">
-                            The information is tabled using the React-Table package via Node.js which allows the user to access pagination, 
-                            sort through the user data or filter by columns.
+                            This is a MERN stack application that utilizes React components to dynamically render national park information
+                            based on the user's search terminology.  The front end was styled and made responsive utilizing Material UI 
+                            and custom CSS.  
                             </p>
-                            <a href= "https://github.com/Seanmonaghan/React_Employee_Directory"
-                            alt = "Employee Directory Github" 
+                            <a href= "https://github.com/Seanmonaghan/Trek-Gambit"
+                            alt = "Trek Gambit" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-blue-500 font-bold hover:underline text-base text-hover:text-blue-400"
                             > Github Repository{" "}{<br />}
                             </a>
-                            <a href= "https://seanmonaghan.github.io/React_Employee_Directory"
-                            alt = "Employee Directory Deployed" 
+                            <a href= "https://quiet-harbor-96544.herokuapp.com/"
+                            alt = "Trek Gambit Deployed" 
                             target = "_blank" 
                             rel="noopener noreferrer"
                             className = "text-blue-500 font-bold hover:underline text-base hover:text-blue-400"
@@ -161,7 +162,7 @@ export default function Project () {
                             </p>
                             <p><span>
                                 <strong className = "font-bold">Type</strong>:{"  "}
-                                School
+                                Academic
                             </span>
                             </p>
                             <img src={workout} className = "p-4" alt="Workout Tracker" />
