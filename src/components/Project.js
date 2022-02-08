@@ -1,6 +1,6 @@
 import React from "react";
 import lyrichord from "../images/lyrichord.PNG"
-import directory from "../images/directory.PNG"
+import gambit from "../images/gambit.PNG"
 import playerbank from "../images/playerbank.PNG"
 import workout from "../images/workout.PNG"
 
